@@ -14,12 +14,7 @@
 			"runtimeArgs": [
 				"--nolazy"
 			],
-			"env": {
-				"NODE_ENV": "development",
-				"BOT_FB_APP_ID": "275634646107691",
-				"BOT_FB_APP_SECRET": "427892ba6af6db20a2c1e01c85f4452b",
-				"BOT_SLACK_API_KEY": "xoxb-68354631971-RsniBpVM6P4laVHzYyNMBgdC"
-			},
+			"envFile": "${workspaceFolder}/.env",
 			"externalConsole": false,
 			"sourceMaps": false,
 			"outDir": null
